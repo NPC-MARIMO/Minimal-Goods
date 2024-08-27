@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    font-family: "gilroy";
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    height: 100vh;
+    position: relative;
+    width: 98.9vw;
+    
+}
+#page1>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page1>h1{
+    font-size: 14rem;
+    letter-spacing: -10px;
+    color: #E8E2DA;
+    text-align: center;
+    transform: translate(0% , -100%);
+    text-transform: capitalize;
+}
+#page2{
+    width: 98.9vw;
+    height:110vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background-color: #2E2A27;
+}
+#nav{
+    display: flex;
+    color: #E8E2DA;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 30;
+    background-color: #2E2A27;
+    height: 100px;
+}
+#nav>#left{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px   ;
+    text-transform: uppercase;
+}
+#nav>#left>h4{
+    font-weight: 500;
+}
+#nav>#left>h4:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #E8E2DA;
+}
+#center{    
+    font-size: 30px;
+    scale : 0;
+    opacity : .3
+}
+#center:hover{
+    cursor: pointer;
+}
+#right{
+    padding-right: 50px;
+    text-transform: uppercase;
+}
+#right>h4{
+    font-weight: 500;
+}
+#line{
+    height: 1px;
+    z-index: 30;
+    width: 95%;
+    background-color :white;
+}
+#image2{
+    width: 95vw;
+    height: 90vh;
+    scale: .5;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#image2>img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.page2h1>h1{
+    font-size: 10rem;
+    color: #E8E2DA;
+    margin-bottom:-65px ;
+}
+#page2h12{
+    font-weight: 100;
+    z-index: 12;
+}
+#page2h111{
+    z-index: 11;
+    width: 100%;
+}
+#page2h13{
+    z-index: 13;
+}
+#page2h14{
+    z-index: 14;
+}
+
+#page2h11{
+    margin-top: 100px;
+}
+#page3{
+    height : 200vh;
+    width: 98.9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E2A27;
+}
+#page4{
+    background-color: #E8E2DA;
+    width: 98.9vw;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lines{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.elements{
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    font-weight: 400;
+}
+.page2h1{
+overflow: hidden;
+height:10rem ;
+
+/* background-color: yellow; */
+}
+#page5txt>h1{
+    font-size: 300px;
+    z-index: 3;
+    
+}
+#page5{
+    background-color: #E8E2DA;
+}
+#image51>img{
+    width: 25%;
+    z-index: 90;
+    padding: 20px;
+}
+#image52>img{
+    width: 17%;
+    left: 35%;
+    top: -120px;
+    position: relative;
+}
+#image53>img{
+    position: relative;
+    width: 12%;
+    left: 55%;
+    top: -750px;
+}
+#image54>img{
+    position: relative;
+    left: 70%;
+    width: 29%;
+    top: -600px;
+
+}
+#image55>img{
+    position: relative;
+    width: 25%;
+    padding: 20px;
+    top : -250px;
+}
+#image56>img{
+    position: relative;
+    width: 17%;
+    left: 35%;
+    top: -370px;
+}
+#image57>img{
+    position: relative;
+    width: 12%;
+    left: 55%;
+    top: -1000px;
+}
+#image58>img{
+    position: relative;
+    left: 70%;
+    width: 29%;
+    top: -800px;
+
+}
+#image511>img{
+    top: -500px;
+    position: relative;
+    width: 25%;
+    padding: 20px;
+}
+#image512>img{
+    width: 17%;
+    left: 35%;
+    top: -620px;
+    position: relative;
+}
+#image513>img{
+    position: relative;
+    width: 12%;
+    left: 55%;
+    top: -1250px;
+}
+#image514>img{
+    position: relative;
+    left: 70%;
+    width: 29%;
+    top: -1100px;
+
+}
+#image515>img{
+    position: relative;
+    width: 25%;
+    padding: 20px;
+    top : -700px;
+}
+#image516>img{
+    position: relative;
+    width: 17%;
+    left: 35%;
+    top: -1070px;
+}
+#image517>img{
+    position: relative;
+    width: 12%;
+    left: 55%;
+    top: -1700px;
+}
+#image518>img{
+    position: relative;
+    left: 70%;
+    width: 29%;
+    top: -1500px;
+
+}
